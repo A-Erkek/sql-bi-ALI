@@ -16,7 +16,7 @@ def write_rows(rows, path):
         writer.writerows(rows)
         
 def drop_empty_rows(rows):
-    return [row for row in rows if any(value.strip() for value in row.values())]
+    return [row for row in rows if not any(value.strip() for value in row.values())]
 
 def strip_whitespace(rows):
    return[{key: value.strip() for key, value in row.items()} for row in rows]
