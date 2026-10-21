@@ -42,3 +42,5 @@ if __name__ == "__main__":
     write_rows(clean(read_rows(input_path)), output_path)
 
 #Add funtion to remove duplicate rows
+def normalize_city(rows):
+    return[{**row, "city": row["city"].title()} for row in rows]
