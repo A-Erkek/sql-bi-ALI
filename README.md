@@ -1,4 +1,4 @@
-Clean CSV files in one command.
+Command-line tool that cleans messy CSV files: empty rows, extra spaces, duplicates.
 ## Usage
 python cleaner.py data/sample.csv outputs/clean.csv
 Cities are capitalised (lyon -> Lyon)
