@@ -1,4 +1,4 @@
-Small tool to clean CSV files.
+Clean CSV files in one command.
 ## Usage
 python cleaner.py data/sample.csv outputs/clean.csv
 Cities are capitalised (lyon -> Lyon)
